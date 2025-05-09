@@ -34,24 +34,19 @@ namespace Online_Store.Controllers
         {
             try
             {
-                // استرجاع السلة من السيشن
                 var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("Cart") ?? new List<CartItem>();
 
-                // تمرير السلة إلى الـ View عبر ViewBag
                 if (cart.Count == 0)
                 {
                     ViewBag.Error = "Your cart is empty.";
                 }
                 ViewBag.Cart = cart;
 
-                // إرجاع الـ View مع الـ Model
-                return View(new Order()); // إرجاع نموذج Order فارغ
+                return View(new Order()); 
             }
             catch (Exception ex)
             {
-                // في حالة حدوث أي استثناء
                 ViewBag.Error = "An error occurred while retrieving the cart: " + ex.Message;
-                // إعادة عرض الصفحة مع عرض رسالة الخطأ
                 return View("Confirm");
             }
         }
@@ -72,7 +67,7 @@ namespace Online_Store.Controllers
                 return View("Error");
             }
 
-            return View(order); // ابعت الموديل نفسه
+            return View(order); 
         }
 
         [HttpPost]
@@ -88,18 +83,11 @@ namespace Online_Store.Controllers
 
                 order.OrderDate = DateTime.Now;
 
-                // ✅ رقم تتبع فريد للحجز
                 order.OrderNumber = Guid.NewGuid().ToString().Substring(0, 8).ToUpper();
 
-                // ✅ حالة مبدئية
                 order.Status = OrderStatus.Pending;
 
-                // ✅ ربط الطلب بالمستخدم الحالي
-                                                 // أو استخدام _userManager للحصول على الـ UserId للمستخدم:
-                                                 // var userId = _userManager.GetUserId(User);
-
-
-                // محاولة إضافة الطلب إلى قاعدة البيانات
+                
                 _ordersRepository.AddOrder(order);
                 _ordersRepository.SaveOrderChanges();
 
@@ -113,7 +101,6 @@ namespace Online_Store.Controllers
 
                 var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("Cart") ?? new List<CartItem>();
 
-                // محاولة معالجة العناصر في السلة
                 foreach (var item in cart)
                 {
                     var product = _productsRepository.GetProductById(item.ProductId);
@@ -127,7 +114,6 @@ namespace Online_Store.Controllers
                         };
                         _orderProductRepository.AddOrderProduct(orderProduct);
 
-                        // تحديث عدد المبيعات
                         product.SalesCount += item.Quantity;
                     }
                 }
@@ -135,7 +121,6 @@ namespace Online_Store.Controllers
                 _productsRepository.SaveProductChanges();
                 HttpContext.Session.Remove("Cart");
 
-                // التعديل هنا: تمرير رقم الطلب إلى صفحة "ThankYou"
                 return RedirectToAction("ThankYou", new { orderNumber = savedOrder.OrderNumber });
             }
             catch (Exception ex)
@@ -149,7 +134,7 @@ namespace Online_Store.Controllers
         [HttpGet]
         public ActionResult TrackOrder()
         {
-            return View();  // عرض صفحة إدخال رقم التتبع
+            return View();  
         }
 
 
