@@ -50,20 +50,17 @@ namespace Online_Store.Controllers
                 {
                     Address = UserViewModel.Address,
                     UserName = UserViewModel.UserName,
-                    Email = UserViewModel.Email // إضافة الإيميل هنا
+                    Email = UserViewModel.Email 
                 };
 
-                // إنشاء المستخدم في النظام
                 IdentityResult result = await _userManager.CreateAsync(appuser, UserViewModel.Password);
 
                 if (result.Succeeded)
                 {
-                    // تسجيل الدخول للمستخدم بعد التسجيل بنجاح
                     await _signInManager.SignInAsync(appuser, isPersistent: false);
                     return RedirectToAction("Index", "Main");
                 }
 
-                // في حالة حدوث أي خطأ أثناء عملية التسجيل
                 foreach (var item in result.Errors)
                 {
                     ModelState.AddModelError("", item.Description);
@@ -80,7 +77,6 @@ namespace Online_Store.Controllers
             {
                 ApplicationUser appuser = null;
 
-                // التحقق إذا كان المدخل بريد إلكتروني أم اسم مستخدم
                 if (UserViewModel.UserNameOrEmail.Contains("@"))
                 {
                     appuser = await _userManager.FindByEmailAsync(UserViewModel.UserNameOrEmail);
@@ -130,12 +126,10 @@ namespace Online_Store.Controllers
             var user = await _userManager.FindByEmailAsync(email);
             if (user == null)
             {
-                // إذا كان البريد الإلكتروني غير موجود، يمكن إضافة رسالة خطأ أو تقديم إشعار عام
                 TempData["ErrorMessage"] = "Email not found!";
                 return RedirectToAction("ForgotPassword");
             }
 
-            // محاولة توليد التوكن
             var token = await _userManager.GeneratePasswordResetTokenAsync(user);
             HttpUtility.UrlEncode(token);
 
@@ -145,17 +139,14 @@ namespace Online_Store.Controllers
                 return RedirectToAction("ForgotPassword");
             }
 
-            // بناء رابط إعادة تعيين كلمة المرور
             var resetLink = $"https://localhost:7156/Account/ResetPassword?token={token}&email={user.Email}";
 
             try
             {
-                // إرسال البريد الإلكتروني عبر خدمة البريد الإلكتروني
                 await _emailSender.SendEmailAsync(user.Email, "Reset Your Password", $"Click <a href='{resetLink}'>here</a> to reset your password.");
             }
             catch (Exception ex)
             {
-                // التعامل مع الاستثناء في حالة فشل إرسال البريد الإلكتروني
                 TempData["ErrorMessage"] = "Error sending email: " + ex.Message;
                 return RedirectToAction("ForgotPassword");
             }
@@ -196,21 +187,20 @@ namespace Online_Store.Controllers
 
             if (!ModelState.IsValid)
             {
-                return View("ResetPassword", model);  // إعادة عرض نفس الصفحة مع الأخطاء
+                return View("ResetPassword", model);  
             }
 
             var user = await _userManager.FindByEmailAsync(model.Email);
             if (user == null)
             {
-                return RedirectToAction("ResetPassword"); // في حالة عدم وجود المستخدم
+                return RedirectToAction("ResetPassword"); 
             }
 
             var result = await _userManager.ResetPasswordAsync(user, model.Token, model.NewPassword);
             if (result.Succeeded)
             {
-                // عرض رسالة نجاح في نفس الصفحة
                 ViewData["SuccessMessage"] = "Your password has been successfully reset!";
-                return View("ResetPassword", model); // إعادة نفس الصفحة مع رسالة النجاح
+                return View("ResetPassword", model); 
             }
 
             foreach (var error in result.Errors)
@@ -218,7 +208,7 @@ namespace Online_Store.Controllers
                 ModelState.AddModelError(string.Empty, error.Description);
             }
 
-            return View("ResetPassword", model);  // إعادة نفس الصفحة مع الأخطاء
+            return View("ResetPassword", model);  
         }
 
     }
