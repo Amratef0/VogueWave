@@ -16,28 +16,24 @@
                         @Html.AntiForgeryToken()
                         <div asp-validation-summary="All" class="text-danger mb-3"></div>
 
-                        <!-- حقل اسم المستخدم -->
                         <div class="form-group mb-3">
                             <label asp-for="UserName" class="form-label">Username</label>
                             <input asp-for="UserName" class="form-control" placeholder="Enter your username" />
                             <span asp-validation-for="UserName" class="text-danger"></span>
                         </div>
 
-                        <!-- حقل البريد الإلكتروني -->
                         <div class="form-group mb-3">
                             <label asp-for="Email" class="form-label">Email</label>
                             <input asp-for="Email" class="form-control" placeholder="Enter your email" />
                             <span asp-validation-for="Email" class="text-danger"></span>
                         </div>
 
-                        <!-- حقل كلمة المرور -->
                         <div class="form-group mb-3">
                             <label asp-for="Password" class="form-label">Password</label>
                             <input asp-for="Password" class="form-control" type="password" placeholder="Enter your password" />
                             <span asp-validation-for="Password" class="text-danger"></span>
                         </div>
 
-                        <!-- حقل العنوان -->
                         <div class="form-group mb-3">
                             <label asp-for="Address" class="form-label">Address</label>
                             <input asp-for="Address" class="form-control" placeholder="Enter your address" />
