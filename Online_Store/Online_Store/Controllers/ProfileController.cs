@@ -84,7 +84,6 @@ public class ProfileController : Controller
         }
         catch (Exception ex)
         {
-            // Log the error (you can log it to a file, a logging system, or whatever you prefer)
             TempData["ErrorMessage"] = $"An unexpected error occurred: {ex.Message}";
             return View("EditProfile", model);
         }
