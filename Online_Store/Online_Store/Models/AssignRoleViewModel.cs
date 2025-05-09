@@ -13,6 +13,6 @@ namespace Online_Store.Models
         [Required(ErrorMessage = "Role name is required.")]
         public string RoleName { get; set; }
 
-        public List<string>? AvailableRoles { get; set; }  // قائمة الأدوار المتاحة للمستخدم لاختيارها
+        public List<string>? AvailableRoles { get; set; }  
     }
 }
