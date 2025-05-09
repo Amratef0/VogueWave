@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Http; // for session handling
+﻿using Microsoft.AspNetCore.Http; 
 using Microsoft.AspNetCore.Mvc;
 using Online_Store.Models;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic; // for List
+using System.Collections.Generic; 
 using System.Linq;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -60,7 +60,6 @@ namespace Online_Store.Controllers
             ViewBag.CurrentPage = page;
             ViewBag.HasMore = (page * pageSize) < totalProducts;
 
-            // جلب البيانات الجانبية زي الأول
             ViewBag.NewArrivals = products.Take(4).ToList();
             ViewBag.PopularProducts = _productsRepository.GetPopularProducts(4);
 
@@ -184,11 +183,11 @@ _productsRepository.AddProduct(newProduct);
 
         public IActionResult Delete(int id)
         {
-            var product = _productsRepository.GetProductById(id);  // استدعاء الريبو للحصول على المنتج
+            var product = _productsRepository.GetProductById(id);  
             if (product != null)
             {
                 _productsRepository.DeleteProductById(id);
-                _productsRepository.SaveProductChanges();// استخدام الميثود في الريبو لحذف المنتج
+                _productsRepository.SaveProductChanges();
             }
             return RedirectToAction("Index");
         }
@@ -209,7 +208,7 @@ _productsRepository.AddProduct(newProduct);
             catch (Exception ex)
             {
                 ViewBag.ErrorMessage = ex.InnerException?.Message ?? ex.Message;
-                return View("Details", new Product()); // بترجع View فاضية مع رسالة الخطأ
+                return View("Details", new Product());
             }
         }
 
@@ -223,16 +222,14 @@ _productsRepository.AddProduct(newProduct);
 
         public IActionResult ViewCart()
         {
-            // Retrieve the cart from the session, or use an empty list if it doesn't exist
             var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("Cart") ?? new List<CartItem>();
 
-            // Check if cart is empty and handle accordingly
             if (cart == null || cart.Count == 0)
             {
                 TempData["Message"] = "Your cart is empty!";
             }
 
-            return View(cart); // Return the cart to the View
+            return View(cart); 
         }
         [HttpPost]
 
@@ -247,20 +244,16 @@ _productsRepository.AddProduct(newProduct);
                     return RedirectToAction("Index");
                 }
 
-                // جلب السلة من السيشن أو إنشاء سلة جديدة إذا كانت فارغة
                 var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("Cart") ?? new List<CartItem>();
 
-                // البحث عن المنتج في السلة
                 var existingItem = cart.FirstOrDefault(c => c.ProductId == product.Id);
 
-                // إذا كان المنتج موجود بالفعل في السلة، زيادة الكمية
                 if (existingItem != null)
                 {
                     existingItem.Quantity++;
                 }
                 else
                 {
-                    // إذا مش موجود، أضف المنتج إلى السلة مع الكمية 1
                     cart.Add(new CartItem
                     {
                         ProductId = product.Id,
@@ -271,7 +264,6 @@ _productsRepository.AddProduct(newProduct);
                     });
                 }
 
-                // حفظ السلة في السيشن بعد التعديل
                 HttpContext.Session.SetObjectAsJson("Cart", cart);
 
                 TempData["Message"] = "Product added to cart successfully!";
@@ -336,62 +328,48 @@ _productsRepository.AddProduct(newProduct);
         {
             return View("About");
         }
-        // أكشن لعرض أحدث 4 منتجات فقط
         public IActionResult NewArrivalsHome()
         {
-            // بنجيب أحدث 10 منتجات تم إضافتها
             var newProducts = _productsRepository.GetNewProductsArrivals(10);
 
-            // نعرض فقط 4 منتجات في الـ view
             var productsToShow = newProducts.Take(4).ToList();
 
-            return View(productsToShow); // يعرض 4 منتجات في الـ View
+            return View(productsToShow); 
         }
 
-        // أكشن لعرض جميع المنتجات الجديدة
         public IActionResult NewArrivals()
         {
-            // بنجيب أحدث 10 منتجات تم إضافتها
             var newProducts = _productsRepository.GetNewProductsArrivals(10);
 
-            return View(newProducts); // يعرض جميع المنتجات في الـ View
+            return View(newProducts); 
         }
 
-        // أكشن لعرض 4 منتجات مشهورة في الصفحة الرئيسية
         public IActionResult PopularProductsHome()
         {
-            // جلب أول 4 منتجات مشهورة
-            var popularProducts = _productsRepository.GetPopularProducts(4); // تمرير العدد هنا 4
+            var popularProducts = _productsRepository.GetPopularProducts(4);
 
-            return View(popularProducts); // عرض الـ 4 منتجات في الـ View
+            return View(popularProducts); 
         }
 
 
-        // أكشن لعرض جميع المنتجات المشهورة
         public IActionResult PopularProducts()
         {
-            // جلب المنتجات المشهورة التي تحتوي على SalesCount أكبر من 0
-            var popularProducts = _productsRepository.GetPopularProducts(10); // تمرير العدد هنا 10
+            var popularProducts = _productsRepository.GetPopularProducts(10); 
 
-            return View(popularProducts); // عرض المنتجات في الـ View
+            return View(popularProducts); 
         }
 
-        // عرض كل الـ Categories
         public IActionResult CategoryPage(int categoryId)
         {
-            // جلب الفئة المطلوبة بناءً على الـ categoryId
             var category = _categoriesRepository.GetCategoryById(categoryId);
 
             if (category == null)
             {
-                // إذا لم يتم العثور على الفئة
                 return NotFound();
             }
 
-            // جلب المنتجات الخاصة بتلك الفئة
             var products = _productsRepository.GetProductsByCategory(categoryId);
 
-            // إرسال الفئة والمنتجات إلى الـ View
             ViewBag.CategoryName = category.Name;
             return View("CategoryPage", products);
         }
@@ -407,14 +385,12 @@ _productsRepository.AddProduct(newProduct);
             return View("CategoriesIndex", categories ?? new List<Category>());
         }
 
-        // عرض صفحة الإضافة
         [HttpGet]
         public IActionResult AddCategory()
         {
             return View("AddCategory", new Category());
         }
 
-        // حفظ القسم الجديد
         [HttpPost]
         [ValidateAntiForgeryToken]
 
@@ -439,7 +415,6 @@ _productsRepository.AddProduct(newProduct);
             }
         }
 
-        // عرض صفحة التعديل
         [HttpGet]
         public IActionResult EditCategory(int id)
         {
@@ -452,7 +427,6 @@ _productsRepository.AddProduct(newProduct);
             return View("EditCategory", category);
         }
 
-        // حفظ التعديلات
         [HttpPost]
         [ValidateAntiForgeryToken]
 
@@ -480,7 +454,6 @@ _productsRepository.AddProduct(newProduct);
             return RedirectToAction("CategoriesIndex");
         }
 
-        // حذف القسم
         [HttpPost]
         [ValidateAntiForgeryToken]
 
