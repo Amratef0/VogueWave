@@ -11,6 +11,6 @@ namespace Online_Store.Models
         public string? Address { get; set; }
 
         [Display(Name = "Username")]
-        public string? UserName { get; set; } // للعرض فقط
+        public string? UserName { get; set; } 
     }
 }
