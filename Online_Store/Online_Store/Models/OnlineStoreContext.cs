@@ -6,7 +6,6 @@ namespace Online_Store.Models
 {
     public class OnlineStoreContext : IdentityDbContext<ApplicationUser>
     {
-        // إبقاء هذا المنشئ فقط
         public OnlineStoreContext(DbContextOptions<OnlineStoreContext> options)
             : base(options)
         {
