@@ -20,7 +20,7 @@ namespace Online_Store.Controllers
 
         public IActionResult AddRole()
         {
-            return View(); // يمكن إرجاع الفيو مباشرة بدون اسم إذا كانت الفيو بنفس الاسم
+            return View(); 
         }
 
         [HttpPost]
@@ -39,18 +39,16 @@ namespace Online_Store.Controllers
                 if (result.Succeeded)
                 {
                     ViewBag.Success = "Role created successfully!";
-                    return RedirectToAction("AddRole"); // إعادة التوجيه إلى AddRole بعد النجاح
+                    return RedirectToAction("AddRole"); 
                 }
 
-                // عرض الأخطاء في حال فشل إضافة الدور
                 foreach (var item in result.Errors)
                 {
                     ModelState.AddModelError("", item.Description);
                 }
             }
 
-            // في حالة وجود أخطاء في المدخلات أو عدم نجاح العملية
-            return View("AddRole", roleViewModel); // عرض نفس الفيو مع الرسائل المرفقة
+            return View("AddRole", roleViewModel); 
         }
 
 
@@ -90,7 +88,6 @@ namespace Online_Store.Controllers
                     return View("AssignRole", model);
                 }
 
-                // التأكد إن المستخدم مش معاه الرول دي بالفعل
                 if (await _userManager.IsInRoleAsync(user, model.RoleName))
                 {
                     TempData["Error"] = $"User already has the '{model.RoleName}' role.";
@@ -125,7 +122,7 @@ namespace Online_Store.Controllers
             {
                 AvailableRoles = _roleManager.Roles.Select(r => r.Name).ToList()
             };
-            return View(model); // هنا نمرر النموذج للفيو
+            return View(model); 
         }
 
         [HttpPost]
@@ -138,7 +135,7 @@ namespace Online_Store.Controllers
                 if (!ModelState.IsValid)
                 {
                     model.AvailableRoles = _roleManager.Roles.Select(r => r.Name).ToList();
-                    return View("RemoveRoleFromUser", model);  // تأكد من أنك تقوم بإرجاع نفس الفيو
+                    return View("RemoveRoleFromUser", model);  
                 }
 
                 var user = await _userManager.FindByNameAsync(model.UserName);
@@ -147,15 +144,14 @@ namespace Online_Store.Controllers
                 {
                     TempData["Error"] = "User not found!";
                     model.AvailableRoles = _roleManager.Roles.Select(r => r.Name).ToList();
-                    return View("RemoveRoleFromUser", model);  // إعادة نفس الفيو
+                    return View("RemoveRoleFromUser", model);  
                 }
 
-                // التحقق إذا كان المستخدم بالفعل معاه الرول
                 if (!await _userManager.IsInRoleAsync(user, model.RoleName))
                 {
                     TempData["Error"] = "User is not assigned to this role.";
                     model.AvailableRoles = _roleManager.Roles.Select(r => r.Name).ToList();
-                    return View("RemoveRoleFromUser", model);  // إعادة نفس الفيو
+                    return View("RemoveRoleFromUser", model); 
                 }
 
                 var result = await _userManager.RemoveFromRoleAsync(user, model.RoleName);
@@ -163,18 +159,18 @@ namespace Online_Store.Controllers
                 if (result.Succeeded)
                 {
                     TempData["Success"] = "Role removed from user successfully!";
-                    return View("RemoveRoleFromUser", model);  // إرجاع نفس الفيو
+                    return View("RemoveRoleFromUser", model); 
                 }
 
                 TempData["Error"] = "Failed to remove role!";
                 model.AvailableRoles = _roleManager.Roles.Select(r => r.Name).ToList();
-                return View("RemoveRoleFromUser", model);  // إرجاع نفس الفيو
+                return View("RemoveRoleFromUser", model);  
             }
             catch (Exception)
             {
                 TempData["Error"] = "An error occurred while removing the role.";
                 model.AvailableRoles = _roleManager.Roles.Select(r => r.Name).ToList();
-                return View("RemoveRoleFromUser", model);  // إرجاع نفس الفيو
+                return View("RemoveRoleFromUser", model); 
             }
         }
 
