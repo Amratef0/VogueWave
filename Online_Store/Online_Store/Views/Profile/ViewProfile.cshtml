@@ -9,7 +9,7 @@
         <div class="row justify-content-center mb-4">
             <div class="col-lg-8">
                 <div class="card shadow-sm p-4">
-                    <h2 class="text-center mb-4 fw-bold">👤 Your Profile</h2>
+                    <h2 class="text-center mb-4 fw-bold"> Your Profile</h2>
 
                     @if (TempData["SuccessMessage"] != null)
                     {
@@ -32,10 +32,10 @@
 
                     <div class="d-flex justify-content-center gap-3">
                         <a href="@Url.Action("EditProfile", "Profile")" class="btn btn-primary">
-                            ✏️ Edit Profile
+                            ✏ Edit Profile
                         </a>
                         <a href="@Url.Action("ChangeProfilePassword", "Profile")" class="btn btn-secondary">
-                            🔒 Change Password
+                             Change Password
                         </a>
                     </div>
                 </div>
