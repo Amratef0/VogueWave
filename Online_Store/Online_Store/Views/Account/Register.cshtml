@@ -1,0 +1,64 @@
+﻿@model Online_Store.Models.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg rounded">
+                <div class="card-header text-center bg-primary text-white">
+                    <h2>Register</h2>
+                </div>
+                <div class="card-body">
+                    <form asp-action="SaveRegister">
+                        @Html.AntiForgeryToken()
+                        <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                        <!-- حقل اسم المستخدم -->
+                        <div class="form-group mb-3">
+                            <label asp-for="UserName" class="form-label">Username</label>
+                            <input asp-for="UserName" class="form-control" placeholder="Enter your username" />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+
+                        <!-- حقل البريد الإلكتروني -->
+                        <div class="form-group mb-3">
+                            <label asp-for="Email" class="form-label">Email</label>
+                            <input asp-for="Email" class="form-control" placeholder="Enter your email" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <!-- حقل كلمة المرور -->
+                        <div class="form-group mb-3">
+                            <label asp-for="Password" class="form-label">Password</label>
+                            <input asp-for="Password" class="form-control" type="password" placeholder="Enter your password" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <!-- حقل العنوان -->
+                        <div class="form-group mb-3">
+                            <label asp-for="Address" class="form-label">Address</label>
+                            <input asp-for="Address" class="form-control" placeholder="Enter your address" />
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer text-center">
+                    <p>Already have an account? <a href="@Url.Action("Login", "Account")" class="text-primary">Login</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

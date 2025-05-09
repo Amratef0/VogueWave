@@ -1,0 +1,671 @@
+﻿@model List<Online_Store.Models.Product>
+
+
+<section id="billboard" class="bg-light py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <h1 class="section-title text-center mt-4">New Collections</h1>
+            <div class="col-md-6 text-center">
+                <p>
+                    Step into the season with our latest arrivals — handpicked styles that blend modern trends with timeless elegance. Discover outfits that make every moment unforgettable.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Start of each banner item -->
+            <div class="col-md-4 mb-4">
+                <div class="banner-item image-zoom-effect">
+                    <div class="image-holder">
+                        <a href="/Main/CategoryPage?categoryId=5">
+                            <img src="/images/banner-image-6.jpg" alt="product" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="banner-content py-4">
+                        <h5 class="element-title text-uppercase">
+                            <a href="/Main/CategoryPage?categoryId=5" class="item-anchor">Soft leather jackets</a>
+                        </h5>
+                        <p>Discover the ideal mix of style and comfort with our exclusive collection, crafted to elevate your everyday look.</p>
+                        <div class="btn-left">
+                            <a href="/Main/CategoryPage?categoryId=5" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat same structure for other images -->
+            <!-- banner-image-1 -->
+            <div class="col-md-4 mb-4">
+                <div class="banner-item image-zoom-effect">
+                    <div class="image-holder">
+                        <a href="/Main/CategoryPage?categoryId=5">
+                            <img src="/images/banner-image-1.jpg" alt="product" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="banner-content py-4">
+                        <h5 class="element-title text-uppercase">
+                            <a href="/Main/CategoryPage?categoryId=5" class="item-anchor">Soft leather jackets</a>
+                        </h5>
+                        <p>Discover the ideal mix of style and comfort with our exclusive collection, crafted to elevate your everyday look.</p>
+                        <div class="btn-left">
+                            <a href="/Main/CategoryPage?categoryId=5" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="banner-item image-zoom-effect">
+                    <div class="image-holder">
+                        <a href="/Main/CategoryPage?categoryId=5">
+                            <img src="/images/banner-image-2.jpg" alt="product" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="banner-content py-4">
+                        <h5 class="element-title text-uppercase">
+                            <a href="/Main/CategoryPage?categoryId=5" class="item-anchor">Soft leather jackets</a>
+                        </h5>
+                        <p>
+                            Discover the ideal mix of style and comfort with our exclusive collection, crafted to elevate your everyday look.
+                        </p>
+                        <div class="btn-left">
+                            <a href="/Main/CategoryPage?categoryId=5" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Repeat باقي البنرات بنفس الطريقة -->
+
+        </div>
+    </div>
+</section>
+
+<!-- Good flex style -->
+<section class="features py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="0">
+                <div class="py-5">
+                    <svg width="38" height="38" viewBox="0 0 24 24">
+                        <use xlink:href="#calendar"></use>
+                    </svg>
+                    <h4 class="element-title text-capitalize my-3">Book An Appointment</h4>
+                    <p>
+                        Book a session with our expert stylists to find your perfect look, tailored just for you. We're here to help you look and feel your best.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="300">
+                <div class="py-5">
+                    <svg width="38" height="38" viewBox="0 0 24 24">
+                        <use xlink:href="#shopping-bag"></use>
+                    </svg>
+                    <h4 class="element-title text-capitalize my-3">Your Order, Your Way</h4>
+                    <p>
+                        Enjoy a seamless online shopping experience — browse, order, and receive your fashion favorites right at your doorstep.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="600">
+                <div class="py-5">
+                    <svg width="38" height="38" viewBox="0 0 24 24">
+                        <use xlink:href="#gift"></use>
+                    </svg>
+                    <h4 class="element-title text-capitalize my-3">Special packaging</h4>
+                    <p>
+                        Each order is carefully wrapped in elegant, eco-friendly packaging — perfect for gifting or treating yourself.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="900">
+                <div class="py-5">
+                    <svg width="38" height="38" viewBox="0 0 24 24">
+                        <use xlink:href="#arrow-cycle"></use>
+                    </svg>
+                    <h4 class="element-title text-capitalize my-3">free global returns</h4>
+                    <p>
+                        Enjoy hassle-free global returns within 30 days of purchase. Get a full refund with no extra charges — your satisfaction is our priority.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Products and Search-->
+<h1 class="text-center my-4">Product List</h1>
+
+<div class="container mb-4">
+    <form id="filterForm" method="get" onsubmit="return false;">
+        <!-- Categories Row -->
+        <div class="row mb-3">
+            <div class="col">
+                <div class="d-flex flex-wrap gap-3 justify-content-center">
+                    <div class="form-check">
+                        <button type="button" name="categoryId" value="" class="btn btn-outline-primary
+                            @(string.IsNullOrEmpty(Context.Request.Query["categoryId"]) ? "active" : "")"
+                                onclick="loadProductsByCategory('')">
+                            All Categories
+                        </button>
+                    </div>
+
+                    @if (ViewBag.Categories != null)
+                    {
+                        foreach (var category in ViewBag.Categories as List<Category>)
+                        {
+                            <button type="button" name="categoryId" value="@category.Id" class="btn btn-outline-primary
+                                @(Context.Request.Query["categoryId"] == category.Id.ToString() ? "active" : "")"
+                                    onclick="loadProductsByCategory('@category.Id')">
+                                @category.Name
+                            </button>
+                        }
+                    }
+                    else
+                    {
+                        <span class="text-muted">No categories available.</span>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- Search Row -->
+        <div class="row align-items-center">
+            <div class="col-md-10 mb-2">
+                <input type="text" name="search" id="search" class="form-control" placeholder="Search by product name..." value="@ViewBag.SearchValue" onkeyup="loadProductsBySearch()" />
+            </div>
+            <div class="col-md-2 mb-2">
+                <button type="button" class="btn btn-primary w-100" onclick="loadProductsBySearch()">Search</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<!-- Products List -->
+<div id="products-list" class="row row-cols-1 row-cols-md-3 g-3">
+    @await Html.PartialAsync("_ProductList", Model)
+</div>
+
+<!-- Shop Collections -->
+<section class="categories overflow-hidden" style="padding-top:100px">
+    <div class="container">
+        <div class="open-up" data-aos="zoom-out">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="cat-item image-zoom-effect">
+                        <div class="image-holder">
+                            <a href="/Main/CategoryPage?categoryId=4" >
+                                <img src="/images/cat-item1.jpg" alt="categories" class="product-image img-fluid">
+                            </a>
+                        </div>
+                        <div class="category-content">
+                            <div class="product-button">
+                                <a href="/Main/CategoryPage?categoryId=4" class="btn btn-common text-uppercase">Shop for men</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cat-item image-zoom-effect">
+                        <div class="image-holder">
+                            <a href="/Main/CategoryPage?categoryId=5">
+                                <img src="/images/cat-item2.jpg" alt="categories" class="product-image img-fluid">
+                            </a>
+                        </div>
+                        <div class="category-content">
+                            <div class="product-button">
+                                <a href="/Main/CategoryPage?categoryId=5" class="btn btn-common text-uppercase">Shop for women</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cat-item image-zoom-effect">
+                        <div class="image-holder">
+                            <a href ="/Main/CategoryPage?categoryId=6">
+                                <img src="/images/cat-item3.jpg" alt="categories" class="product-image img-fluid">
+                            </a>
+                        </div>
+                        <div class="category-content">
+                            <div class="product-button">
+                                <a href="/Main/CategoryPage?categoryId=6" class="btn btn-common text-uppercase">Shop accessories</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- New Arrival -->
+<section id="new-arrival" class="new-arrival py-5 position-relative overflow-hidden">
+    <div class="container">
+        <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-3">
+            <h4 class="text-uppercase">Our New Arrivals</h4>
+            <a href="/Main/NewArrivals" class="btn-link">View All Products</a>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+            @foreach (var product in ViewBag.NewArrivals as List<Product>)
+            {
+                <div class="col d-flex justify-content-center">
+                    <div class="card h-100 p-2 border-0 shadow rounded-3" style="width: 100%; max-width: 350px;">
+                        <img src="~/images/@product.ImageUrl" class="card-img-top rounded-3" alt="@product.Name" style="height: 220px; object-fit: cover;" />
+                        <div class="card-body d-flex flex-column">
+                            <h6 class="card-title mb-1 fw-bold">@product.Name</h6>
+                            <p class="card-text text-muted mb-2">@product.Description</p>
+                            <p class="card-text mb-3"><strong>Price:</strong> @product.Price EGP</p>
+                            <div class="mt-auto d-flex justify-content-between">
+                                <a href="/Main/Details/@product.Id" class="btn btn-sm btn-primary">View Details</a>
+                                <form method="post" action="/Main/AddToCart/@product.Id">
+                                    <button type="submit" class="btn btn-sm btn-success">Add To Cart</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Shop Collection -->
+<section class="collection bg-light position-relative py-5">
+    <div class="container">
+        <div class="row">
+            <div class="title-xlarge text-uppercase txt-fx domino">Collection</div>
+            <div class="collection-item d-flex flex-wrap my-5">
+                <div class="col-md-6 column-container">
+                    <div class="image-holder">
+                        <img src="/images/single-image-2.jpg" alt="collection" class="product-image img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6 column-container bg-white">
+                    <div class="collection-content p-5 m-0 m-md-5">
+                        <h3 class="element-title text-uppercase">Classic winter collection</h3>
+                        <p>
+                            Discover our exclusive winter collection that combines elegance and comfort. With designs that blend simplicity and modernity, we present warm and stylish clothing perfect for the cold winter days. Whether it's luxurious wool sweaters or elegant coats designed to provide warmth and protection from the cold, each piece in this collection has been carefully selected to match your refined taste.
+                        </p>
+                        <a href="/Main/CategoryPage?categoryId=4" class="btn btn-dark text-uppercase mt-3">Shop Collection</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+
+<!-- Popular Products -->
+<section id="popular-products" class="popular-products py-5">
+    <div class="container">
+        <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
+            <h4 class="text-uppercase">Our Popular Products</h4>
+            <a href="@Url.Action("PopularProducts")" class="btn-link">View All Products</a>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+            @foreach (var product in ViewBag.PopularProducts as List<Product> ?? new List<Product>())
+            {
+                <div class="col d-flex justify-content-center">
+                    <div class="card h-100 p-2 border-0 shadow rounded-3" style="width: 100%; max-width: 350px;">
+                        <img src="~/images/@(string.IsNullOrEmpty(product.ImageUrl) ? "default-image.jpg" : product.ImageUrl)" class="card-img-top rounded-3" alt="@product.Name" style="height: 220px; object-fit: cover;" />
+                        <div class="card-body d-flex flex-column">
+                            <h6 class="card-title mb-1 fw-bold" style="font-size: 1rem;">@(string.IsNullOrEmpty(product.Name) ? "No Name Available" : product.Name)</h6>
+                            <p class="card-text text-muted mb-2" style="font-size: 0.9rem;">@(string.IsNullOrEmpty(product.Description) ? "No Description Available" : product.Description)</p>
+                            <p class="card-text mb-3" style="font-size: 0.9rem;"><strong>@(product.Price.HasValue ? product.Price.Value.ToString() : "Price Not Available") EGP</strong></p>
+                            <div class="mt-auto d-flex justify-content-between">
+                                <a href="/Main/Details/@product.Id" class="btn btn-sm btn-primary">View Details</a>
+                                <form method="post" action="/Main/AddToCart/@product.Id">
+                                    <button type="submit" class="btn btn-sm btn-success">Add To Cart</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Swiper -->
+<section class="testimonials py-5 bg-light">
+    <div class="section-header text-center mt-5">
+        <h3 class="section-title">WE LOVE GOOD COMPLIMENT</h3>
+    </div>
+    <div class="swiper testimonial-swiper overflow-hidden my-5">
+        <div class="swiper-wrapper d-flex">
+            <div class="swiper-slide">
+                <div class="testimonial-item text-center">
+                    <blockquote>
+                        <p>“More than expected crazy soft, flexible and best fitted white simple denim shirt.”</p>
+                        <div class="review-title text-uppercase">casual way</div>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="testimonial-item text-center">
+                    <blockquote>
+                        <p>“Best fitted white denim shirt more than expected crazy soft, flexible</p>
+                        <div class="review-title text-uppercase">uptop</div>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="testimonial-item text-center">
+                    <blockquote>
+                        <p>“Best fitted white denim shirt more white denim than expected flexible crazy soft.”</p>
+                        <div class="review-title text-uppercase">Denim craze</div>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="testimonial-item text-center">
+                    <blockquote>
+                        <p>“Best fitted white denim shirt more than expected crazy soft, flexible</p>
+                        <div class="review-title text-uppercase">uptop</div>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testimonial-swiper-pagination d-flex justify-content-center mb-5"></div>
+</section>
+
+<!-- Blog -->
+<section class="blog py-5">
+    <div class="container">
+        <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-3">
+            <h4 class="text-uppercase">Read Blog Posts</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <article class="post-item">
+                    <div class="post-image">
+                        <a asp-controller="Blog" asp-action="Post1">
+                            <img src="/images/post-image1.jpg" alt="image" class="post-grid-image img-fluid">
+                        </a>
+                    </div>
+                    <div class="post-content d-flex flex-wrap gap-2 my-3">
+                        <div class="post-meta text-uppercase fs-6 text-secondary">
+                            <span class="post-category">Fashion /</span>
+                            <span class="meta-day"> jul 11, 2022</span>
+                        </div>
+                        <h5 class="post-title text-uppercase">
+                            <a asp-controller="Blog" asp-action="Post1">How to look outstanding in pastel</a>
+                        </h5>
+                        <p>
+                            Immerse yourself in an exquisite fusion of timeless sophistication and exceptional comfort, expertly designed to redefine your style and enhance every aspect of your daily life...
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-4">
+                <article class="post-item">
+                    <div class="post-image">
+                        <a asp-controller="Blog" asp-action="Post2">
+                            <img src="/images/post-image2.jpg" alt="image" class="post-grid-image img-fluid">
+                        </a>
+                    </div>
+                    <div class="post-content d-flex flex-wrap gap-2 my-3">
+                        <div class="post-meta text-uppercase fs-6 text-secondary">
+                            <span class="post-category">Fashion /</span>
+                            <span class="meta-day"> jul 11, 2022</span>
+                        </div>
+                        <h5 class="post-title text-uppercase">
+                            <a asp-controller="Blog" asp-action="Post2">Top 10 fashion trend for summer</a>
+                        </h5>
+                        <p>
+                            Immerse yourself in an exquisite fusion of timeless sophistication and exceptional comfort, expertly designed to redefine your style and enhance every aspect of your daily life...
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-4">
+                <article class="post-item">
+                    <div class="post-image">
+                        <a asp-controller="Blog" asp-action="Post3">
+                            <img src="/images/post-image3.jpg" alt="image" class="post-grid-image img-fluid">
+                        </a>
+                    </div>
+                    <div class="post-content d-flex flex-wrap gap-2 my-3">
+                        <div class="post-meta text-uppercase fs-6 text-secondary">
+                            <span class="post-category">Fashion /</span>
+                            <span class="meta-day"> jul 11, 2022</span>
+                        </div>
+                        <h5 class="post-title text-uppercase">
+                            <a asp-controller="Blog" asp-action="Post3">Crazy fashion with unique moment</a>
+                        </h5>
+                        <p>
+                            Immerse yourself in an exquisite fusion of timeless sophistication and exceptional comfort, expertly designed to redefine your style and enhance every aspect of your daily life...
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Logo -->
+<section class="logo-bar py-5 my-5">
+    <div class="container">
+        <div class="row">
+            <div class="logo-content d-flex flex-wrap justify-content-between">
+                <img src="/images/logo1.png" alt="logo" class="logo-image img-fluid">
+                <img src="/images/logo2.png" alt="logo" class="logo-image img-fluid">
+                <img src="/images/logo3.png" alt="logo" class="logo-image img-fluid">
+                <img src="/images/logo4.png" alt="logo" class="logo-image img-fluid">
+                <img src="/images/logo5.png" alt="logo" class="logo-image img-fluid">
+            </div>
+        </div>
+    </div>
+</section> 
+
+<!-- Sign Up -->
+<section class="newsletter bg-light" style="background: url(images/pattern-bg.png) no-repeat;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 py-5 my-5">
+                @if (!User.Identity.IsAuthenticated)
+                {
+                    <div class="subscribe-header text-center pb-3">
+                        <h3 class="section-title text-uppercase">Sign Up for our newsletter</h3>
+                    </div>
+                    <form id="form" class="d-flex flex-wrap gap-2">
+                        <button asp-controller="Account" asp-action="Register" class="btn btn-dark btn-lg text-uppercase w-100">Sign Up</button>
+                    </form>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Follow Us -->
+<section class="instagram position-relative">
+    <div class="d-flex justify-content-center w-100 position-absolute bottom-0 z-1">
+        <a href="https://www.instagram.com/" class="btn btn-dark px-5">Follow us on Instagram</a>
+    </div>
+    <div class="row g-0">
+        <div class="col-6 col-sm-4 col-md-2">
+            <div class="insta-item">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="/images/insta-item1.jpg" alt="instagram" class="insta-image img-fluid">
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2">
+            <div class="insta-item">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="/images/insta-item2.jpg" alt="instagram" class="insta-image img-fluid">
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2">
+            <div class="insta-item">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="/images/insta-item3.jpg" alt="instagram" class="insta-image img-fluid">
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2">
+            <div class="insta-item">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="/images/insta-item4.jpg" alt="instagram" class="insta-image img-fluid">
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2">
+            <div class="insta-item">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="/images/insta-item5.jpg" alt="instagram" class="insta-image img-fluid">
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2">
+            <div class="insta-item">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="/images/insta-item6.jpg" alt="instagram" class="insta-image img-fluid">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Swiper CSS -->
+
+
+<script>
+
+
+
+           
+
+
+
+
+
+
+
+    function loadProductsByCategory(categoryId) {
+        var searchQuery = $("input[name='search']").val();
+        $.ajax({
+            url: "/Main/Index",
+            type: "GET",
+            data: {
+                categoryId: categoryId,
+                search: searchQuery,
+                page: 1
+            },
+            headers: { 'X-Requested-With': 'XMLHttpRequest' },
+            success: function (response) {
+                $('#products-list').html(response);
+                currentPage = 1;
+
+                $("button[name='categoryId']").removeClass("active");
+                $("button[name='categoryId'][value='" + categoryId + "']").addClass("active");
+
+                updateLoadMoreButton(categoryId, searchQuery, currentPage);
+            },
+            error: function () {
+                alert("Error loading category.");
+            }
+        });
+    }
+
+    function loadProductsBySearch() {
+        var searchQuery = $("input[name='search']").val();
+        var categoryId = $("button.active").val();
+
+        $.ajax({
+            url: "/Main/Index",
+            type: "GET",
+            data: {
+                categoryId: categoryId,
+                search: searchQuery,
+                page: 1
+            },
+            headers: { 'X-Requested-With': 'XMLHttpRequest' },
+            success: function (response) {
+                $('#products-list').html(response);
+                currentPage = 1;
+
+                updateLoadMoreButton(categoryId, searchQuery, currentPage);
+            },
+            error: function () {
+                alert("Error searching.");
+            }
+        });
+    }
+            $(document).on("click", "#loadMoreBtn", function (e) {
+        e.preventDefault();
+        console.log("Load More button clicked");
+
+        var searchQuery = $("input[name='search']").val();
+        var categoryId = $("button.active").val();
+
+        $.ajax({
+            url: "/Main/Index",
+            type: "GET",
+            data: {
+                categoryId: categoryId,
+                search: searchQuery,
+                page: currentPage + 1
+            },
+            headers: { 'X-Requested-With': 'XMLHttpRequest' },
+            success: function (response) {
+                console.log("AJAX success");
+                $("#products-list").append(response);
+                currentPage++;
+                updateLoadMoreButton(categoryId, searchQuery, currentPage);
+            },
+            error: function () {
+                alert("Error loading more products.");
+            }
+        });
+    });
+
+
+
+
+        function updateLoadMoreButton(categoryId, search, page) {
+        $.ajax({
+            url: "/Main/HasMore",
+            type: "GET",
+            data: {
+                categoryId: categoryId,
+                search: search,
+                page: page
+            },
+            success: function (hasMore) {
+                if (hasMore === true || hasMore === "True") {
+                    if ($("#loadMoreBtn").length === 0) {
+                        $(".text-center.mt-4").html('<button id="loadMoreBtn" class="btn btn-outline-primary">Load More</button>');
+                    }
+                } else {
+                    $("#loadMoreBtn").remove();  // لو مفيش حاجة زيادة، شيل الزرار
+                }
+            }
+        });
+    }
+
+
+    // البحث لما يضغط إنتر
+    $("form").on("submit", function (event) {
+        event.preventDefault();
+        loadProductsBySearch();
+    });
+
+    // أو تلقائي مع الكتابة (اختياري)
+    $("#search").on("keyup", function () {
+        loadProductsBySearch();
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+

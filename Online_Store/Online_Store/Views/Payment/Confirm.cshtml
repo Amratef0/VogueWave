@@ -1,0 +1,71 @@
+﻿@model Online_Store.Models.Order
+
+<h2 class="mb-4">Confirm Your Order</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        <strong>Error:</strong> @ViewBag.Error
+    </div>
+}
+
+<form asp-action="Process" asp-controller="Payment" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label asp-for="FullName"></label>
+        <input asp-for="FullName" class="form-control" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PhoneNumber"></label>
+        <input asp-for="PhoneNumber" class="form-control" />
+        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Address"></label>
+        <textarea asp-for="Address" class="form-control" rows="3"></textarea>
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+
+    <h3 class="mt-4">Order Summary</h3>
+    <table class="table table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (ViewBag.Cart != null)
+            {
+                foreach (var item in ViewBag.Cart)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.Price EGP</td>
+                        <td>@(item.Quantity * item.Price) EGP</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="4">Cart is empty or not found.</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+    <button type="submit" class="btn btn-success">Confirm Order</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

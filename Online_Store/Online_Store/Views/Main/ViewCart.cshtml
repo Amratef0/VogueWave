@@ -1,0 +1,63 @@
+﻿@model List<Online_Store.Models.CartItem>
+
+<h2>Your Cart</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["Message"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Remove</th>
+            <th>Quantity</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td><img src="~/images/@item.ImageUrl" style="height: 50px;" /></td>
+                <td>@item.Name</td>
+                <td>@item.Price EGP</td>
+                <td>
+                    <form asp-action="RemoveFromCart" asp-controller="Main" method="post">
+                        <input type="hidden" name="productId" value="@item.ProductId" />
+                        <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                    </form>
+                </td>
+                <td>
+                    <form method="post" action="/Main/UpdateQuantity">
+                        <input type="hidden" name="productId" value="@item.ProductId" />
+                        <button type="submit" name="actionType" value="decrease" class="btn btn-sm btn-warning">-</button>
+                        <span>@item.Quantity</span>
+                        <button type="submit" name="actionType" value="increase" class="btn btn-sm btn-warning">+</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (Model.Any())
+{
+    <div class="text-center">
+        <form method="post" action="/Payment/Confirm">
+            <button type="submit" class="btn btn-success btn-lg">Confirm Order</button>
+        </form>
+    </div>
+}
+

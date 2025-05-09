@@ -1,0 +1,1173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\repository\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\repository\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\repository\\ordersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\repository\\ordersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\interface\\iproductsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\interface\\iproductsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\profile\\viewprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\profile\\viewprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\payment\\thankyou.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\payment\\thankyou.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\payment\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\payment\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\payment\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\payment\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\main\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\main\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\main\\servicepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\main\\servicepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\main\\popularproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\main\\popularproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\main\\newarrivals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\main\\newarrivals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\main\\manageproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\main\\manageproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\main\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\main\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\main\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\main\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\main\\editcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\main\\editcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\main\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\main\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\main\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\main\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\main\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\main\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\main\\categorypage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\main\\categorypage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\main\\categoriesindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\main\\categoriesindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\main\\addtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\main\\addtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\main\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\main\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\main\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\main\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\main\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\main\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\main\\_productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\main\\_productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\blog\\post1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\blog\\post1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\models\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\models\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\models\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\models\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\models\\onlinestorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\models\\onlinestorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\models\\loginuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\models\\loginuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\models\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\models\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\models\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\models\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\interface\\iordersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\interface\\iordersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\interface\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\interface\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\online_store.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\online_store.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\wwwroot\\js\\plugins.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\wwwroot\\js\\plugins.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\wwwroot\\js\\modernizr.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\wwwroot\\js\\modernizr.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\wwwroot\\js\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\wwwroot\\js\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\blog\\post3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\blog\\post3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\views\\blog\\post2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\views\\blog\\post2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\wwwroot\\css\\vendor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\wwwroot\\css\\vendor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\wwwroot\\lib\\bootstrap\\license||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\wwwroot\\lib\\bootstrap\\license||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\wwwroot\\assets\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\wwwroot\\assets\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\migrations\\20250505205140_websitenew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\migrations\\20250505205140_websitenew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\migrations\\20250505204424_newwebsite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\migrations\\20250505204424_newwebsite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\migrations\\20250505195348_neweditonlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\migrations\\20250505195348_neweditonlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\migrations\\20250506122428_newtrackorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\migrations\\20250506122428_newtrackorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\migrations\\20250506150327_updatethings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\migrations\\20250506150327_updatethings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|c:\\users\\lenovo\\source\\repos\\online_store\\online_store\\migrations\\20250506134117_trackorderbyuserid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C5DE0B-4B76-4564-BE37-FDD58EE23B69}|Online_Store\\Online_Store.csproj|solutionrelative:online_store\\migrations\\20250506134117_trackorderbyuserid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_mylayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Shared\\_mylayout.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Shared\\_mylayout.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Shared\\_mylayout.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Shared\\_mylayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYBAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T14:23:49.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Controllers\\MainController.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Controllers\\MainController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Controllers\\MainController.cs",
+              "RelativeToolTip": "Online_Store\\Controllers\\MainController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAO0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T17:50:35.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Payment\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Payment\\OrderDetails.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Payment\\OrderDetails.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Payment\\OrderDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T12:57:37.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Interface\\IProductsRepository.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Interface\\IProductsRepository.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Interface\\IProductsRepository.cs",
+              "RelativeToolTip": "Online_Store\\Interface\\IProductsRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T18:44:25.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Repository\\ProductsRepository.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Repository\\ProductsRepository.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Repository\\ProductsRepository.cs",
+              "RelativeToolTip": "Online_Store\\Repository\\ProductsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T18:42:06.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Repository\\OrdersRepository.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Repository\\OrdersRepository.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Repository\\OrdersRepository.cs",
+              "RelativeToolTip": "Online_Store\\Repository\\OrdersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:34:48.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Program.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Program.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Program.cs",
+              "RelativeToolTip": "Online_Store\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:47:09.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ThankYou.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Payment\\ThankYou.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Payment\\ThankYou.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Payment\\ThankYou.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Payment\\ThankYou.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T12:23:42.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T12:45:26.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GlobalUsing.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\GlobalUsing.cs",
+              "RelativeDocumentMoniker": "Online_Store\\GlobalUsing.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\GlobalUsing.cs",
+              "RelativeToolTip": "Online_Store\\GlobalUsing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T12:45:47.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Confirm.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Payment\\Confirm.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Payment\\Confirm.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Payment\\Confirm.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Payment\\Confirm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T12:18:35.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\ViewCart.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Main\\ViewCart.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\ViewCart.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Main\\ViewCart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:48:27.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Profile\\ViewProfile.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Profile\\ViewProfile.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Profile\\ViewProfile.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Profile\\ViewProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T19:00:00.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServicePage.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\ServicePage.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Main\\ServicePage.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\ServicePage.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Main\\ServicePage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T21:03:23.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PopularProducts.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\PopularProducts.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Main\\PopularProducts.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\PopularProducts.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Main\\PopularProducts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:47:54.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NewArrivals.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\NewArrivals.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Main\\NewArrivals.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\NewArrivals.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Main\\NewArrivals.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:47:00.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ManageProducts.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\ManageProducts.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Main\\ManageProducts.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\ManageProducts.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Main\\ManageProducts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:46:30.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\Index.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Main\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\Index.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Main\\Index.cshtml",
+              "ViewState": "AgIAALUAAAAAAAAAAAAAAJYCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T15:20:35.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\Error.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Main\\Error.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\Error.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Main\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:46:07.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EditCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\EditCategory.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Main\\EditCategory.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\EditCategory.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Main\\EditCategory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:45:51.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Main\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\Edit.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Main\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:45:26.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\Details.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Main\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\Details.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Main\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:44:58.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Main\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\Contact.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Main\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T18:47:15.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoryPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\CategoryPage.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Main\\CategoryPage.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\CategoryPage.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Main\\CategoryPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T18:45:22.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CategoriesIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\CategoriesIndex.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Main\\CategoriesIndex.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\CategoriesIndex.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Main\\CategoriesIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:44:30.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddtoCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\AddtoCart.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Main\\AddtoCart.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\AddtoCart.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Main\\AddtoCart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:44:04.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\AddCategory.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Main\\AddCategory.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\AddCategory.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Main\\AddCategory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:43:38.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\Add.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Main\\Add.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\Add.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Main\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:35:24.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\About.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Main\\About.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\About.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Main\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:33:32.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ProductList.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\_ProductList.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Main\\_ProductList.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Main\\_ProductList.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Main\\_ProductList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T13:28:51.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Post1.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Blog\\Post1.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Blog\\Post1.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Blog\\Post1.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Blog\\Post1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T18:11:22.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T19:19:16.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T15:35:13.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T15:33:17.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T19:06:35.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ForgotPasswordConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T19:18:18.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SmtpSettings.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\SmtpSettings.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Models\\SmtpSettings.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\SmtpSettings.cs",
+              "RelativeToolTip": "Online_Store\\Models\\SmtpSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T16:22:57.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ResetPasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\ResetPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Models\\ResetPasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\ResetPasswordViewModel.cs",
+              "RelativeToolTip": "Online_Store\\Models\\ResetPasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:15:09.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Online_Store\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:30:26.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Models\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\OrderStatus.cs",
+              "RelativeToolTip": "Online_Store\\Models\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:16:13.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\Order.cs",
+              "RelativeToolTip": "Online_Store\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:15:49.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "OnlineStoreContext.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\OnlineStoreContext.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Models\\OnlineStoreContext.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\OnlineStoreContext.cs",
+              "RelativeToolTip": "Online_Store\\Models\\OnlineStoreContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:34:40.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LoginUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\LoginUserViewModel.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Models\\LoginUserViewModel.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\LoginUserViewModel.cs",
+              "RelativeToolTip": "Online_Store\\Models\\LoginUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:31:03.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ForgotPasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\ForgotPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Models\\ForgotPasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\ForgotPasswordViewModel.cs",
+              "RelativeToolTip": "Online_Store\\Models\\ForgotPasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:07:45.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\EmailSender.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Models\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\EmailSender.cs",
+              "RelativeToolTip": "Online_Store\\Models\\EmailSender.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:46:06.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\Category.cs",
+              "RelativeToolTip": "Online_Store\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T12:39:25.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IOrdersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Interface\\IOrdersRepository.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Interface\\IOrdersRepository.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Interface\\IOrdersRepository.cs",
+              "RelativeToolTip": "Online_Store\\Interface\\IOrdersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:32:07.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IEmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Interface\\IEmailSender.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Interface\\IEmailSender.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Interface\\IEmailSender.cs",
+              "RelativeToolTip": "Online_Store\\Interface\\IEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:44:24.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Online_Store\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:06:17.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Online_Store\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:37:47.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Online_Store\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:17:24.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Online_Store\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T18:33:54.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "Online_Store\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T20:48:26.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "Online_Store\\Controllers\\BlogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T18:10:40.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Readme.txt",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Readme.txt",
+              "RelativeDocumentMoniker": "Online_Store\\Readme.txt",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Readme.txt",
+              "RelativeToolTip": "Online_Store\\Readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-09T12:28:21.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Online_Store.csproj",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Online_Store.csproj",
+              "RelativeDocumentMoniker": "Online_Store\\Online_Store.csproj",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Online_Store.csproj",
+              "RelativeToolTip": "Online_Store\\Online_Store.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-09T12:24:26.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "Online_Store\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "Online_Store\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAIkDAAAAAAAAAAAvwLIDAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-03T15:45:56.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "plugins.js",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\wwwroot\\js\\plugins.js",
+              "RelativeDocumentMoniker": "Online_Store\\wwwroot\\js\\plugins.js",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\wwwroot\\js\\plugins.js",
+              "RelativeToolTip": "Online_Store\\wwwroot\\js\\plugins.js",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwBwAAADdBwAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-03T21:05:51.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "modernizr.js",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\wwwroot\\js\\modernizr.js",
+              "RelativeDocumentMoniker": "Online_Store\\wwwroot\\js\\modernizr.js",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\wwwroot\\js\\modernizr.js",
+              "RelativeToolTip": "Online_Store\\wwwroot\\js\\modernizr.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-03T21:05:49.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "jquery.min.js",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\wwwroot\\js\\jquery.min.js",
+              "RelativeDocumentMoniker": "Online_Store\\wwwroot\\js\\jquery.min.js",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\wwwroot\\js\\jquery.min.js",
+              "RelativeToolTip": "Online_Store\\wwwroot\\js\\jquery.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAC5FwAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-03T21:05:37.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\appsettings.json",
+              "RelativeDocumentMoniker": "Online_Store\\appsettings.json",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\appsettings.json",
+              "RelativeToolTip": "Online_Store\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-07T16:25:42.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "20250506150327_Updatethings.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Migrations\\20250506150327_Updatethings.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Migrations\\20250506150327_Updatethings.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Migrations\\20250506150327_Updatethings.cs",
+              "RelativeToolTip": "Online_Store\\Migrations\\20250506150327_Updatethings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T15:03:27.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "20250506134117_TrackOrderByuserid.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Migrations\\20250506134117_TrackOrderByuserid.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Migrations\\20250506134117_TrackOrderByuserid.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Migrations\\20250506134117_TrackOrderByuserid.cs",
+              "RelativeToolTip": "Online_Store\\Migrations\\20250506134117_TrackOrderByuserid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:41:17.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "20250506122428_NewTrackOrder.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Migrations\\20250506122428_NewTrackOrder.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Migrations\\20250506122428_NewTrackOrder.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Migrations\\20250506122428_NewTrackOrder.cs",
+              "RelativeToolTip": "Online_Store\\Migrations\\20250506122428_NewTrackOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:24:29.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "20250505205140_WebsiteNew.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Migrations\\20250505205140_WebsiteNew.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Migrations\\20250505205140_WebsiteNew.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Migrations\\20250505205140_WebsiteNew.cs",
+              "RelativeToolTip": "Online_Store\\Migrations\\20250505205140_WebsiteNew.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T20:51:41.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "20250505204424_NewWebSite.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Migrations\\20250505204424_NewWebSite.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Migrations\\20250505204424_NewWebSite.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Migrations\\20250505204424_NewWebSite.cs",
+              "RelativeToolTip": "Online_Store\\Migrations\\20250505204424_NewWebSite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T20:44:24.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "20250505195348_NewEditOnLogin.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Migrations\\20250505195348_NewEditOnLogin.cs",
+              "RelativeDocumentMoniker": "Online_Store\\Migrations\\20250505195348_NewEditOnLogin.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Migrations\\20250505195348_NewEditOnLogin.cs",
+              "RelativeToolTip": "Online_Store\\Migrations\\20250505195348_NewEditOnLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:53:48.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Post2.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Blog\\Post2.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Blog\\Post2.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Blog\\Post2.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Blog\\Post2.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T18:11:35.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Post3.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Blog\\Post3.cshtml",
+              "RelativeDocumentMoniker": "Online_Store\\Views\\Blog\\Post3.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\Views\\Blog\\Post3.cshtml",
+              "RelativeToolTip": "Online_Store\\Views\\Blog\\Post3.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T18:11:47.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "vendor.css",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\wwwroot\\css\\vendor.css",
+              "RelativeDocumentMoniker": "Online_Store\\wwwroot\\css\\vendor.css",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\wwwroot\\css\\vendor.css",
+              "RelativeToolTip": "Online_Store\\wwwroot\\css\\vendor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-04T12:10:15.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "LICENSE",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\wwwroot\\lib\\bootstrap\\LICENSE",
+              "RelativeDocumentMoniker": "Online_Store\\wwwroot\\lib\\bootstrap\\LICENSE",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\wwwroot\\lib\\bootstrap\\LICENSE",
+              "RelativeToolTip": "Online_Store\\wwwroot\\lib\\bootstrap\\LICENSE",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-03T20:45:52.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "favicon.ico - Icon [75x75, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\wwwroot\\assets\\favicon.ico",
+              "RelativeDocumentMoniker": "Online_Store\\wwwroot\\assets\\favicon.ico",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Online_Store\\Online_Store\\wwwroot\\assets\\favicon.ico - Icon [75x75, 32 bit, BMP]",
+              "RelativeToolTip": "Online_Store\\wwwroot\\assets\\favicon.ico - Icon [75x75, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-05-03T15:54:12.376Z",
+              "EditorCaption": " - Icon [75x75, 32 bit, BMP]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

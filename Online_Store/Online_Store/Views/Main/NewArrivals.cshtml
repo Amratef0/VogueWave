@@ -1,0 +1,30 @@
+﻿@model List<Online_Store.Models.Product>
+
+<h2 class="mb-4">🆕 New Arrivals</h2>
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+    @foreach (var item in Model)
+    {
+        <div class="col">
+            <div class="card shadow-sm border-light">
+                <img src="~/images/@item.ImageUrl" class="card-img-top" alt="@item.Name" style="height: 200px; object-fit: cover;" />
+                <div class="card-body">
+                    <h5 class="card-title text-truncate" title="@item.Name">@item.Name</h5>
+                    <p class="card-text text-truncate" title="@item.Description">@item.Description</p>
+                    <p class="card-text fw-bold">Price: @item.Price?.ToString("F2") EGP</p>
+                    <div class="d-flex justify-content-between">
+                        <a href="/Main/Details/@item.Id" class="btn btn-primary btn-sm">View</a>
+                        <form method="post" action="/Main/AddToCart/@item.Id" style="display:inline;">
+                            <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+    @if (!Model.Any())
+    {
+        <div class="col-12 text-center text-danger">No products found.</div>
+    }
+</div>

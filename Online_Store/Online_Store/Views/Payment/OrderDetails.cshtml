@@ -1,0 +1,54 @@
+﻿@model Online_Store.Models.Order
+
+
+<h2>Order Details</h2>
+
+<p><strong>Order Number:</strong> @Model.OrderNumber</p>
+<p><strong>Status:</strong> @Model.Status</p>
+<p><strong>Order Date:</strong> @Model.OrderDate?.ToString("MM/dd/yyyy")</p>
+
+<h3>Ordered Products</h3>
+@if (Model.OrderProducts != null && Model.OrderProducts.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var orderProduct in Model.OrderProducts)
+            {
+                <tr>
+                    <td>@(orderProduct?.Product?.Name ?? "N/A")</td>
+                    <td>@(orderProduct?.Quantity?.ToString() ?? "N/A")</td>
+                    <td>@(orderProduct?.Product?.Price?.ToString("C") ?? "N/A")</td>
+                    <td>
+                        @{
+                            var quantity = orderProduct?.Quantity;
+                            var price = orderProduct?.Product?.Price;
+
+                            string total = (quantity.HasValue && price.HasValue)
+                            ? (quantity.Value * price.Value).ToString("C")
+                            : "N/A";
+                        }
+                        @total
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No products in this order.</p>
+}
+
+@if (Model.OrderProducts == null || !Model.OrderProducts.Any())
+{
+    <p><strong>No products have been added to this order yet.</strong></p>
+}

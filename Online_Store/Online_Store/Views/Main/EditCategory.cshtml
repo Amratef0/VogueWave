@@ -1,0 +1,28 @@
+﻿@model Online_Store.Models.Category
+
+@{
+    ViewData["Title"] = "Edit Category";
+}
+
+<h2 class="text-center my-4">Edit Category</h2>
+
+<div class="container">
+    <form method="post" asp-action="SaveEditCategory">
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Category Name</label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="text-center my-3">
+            <button type="submit" class="btn btn-primary btn-lg">Save Changes</button>
+        </div>
+
+        <div class="text-center my-3">
+            <a href="@Url.Action("CategoriesIndex", "Main")" class="btn btn-secondary btn-lg">Cancel</a>
+        </div>
+    </form>
+</div>

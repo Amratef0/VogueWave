@@ -1,0 +1,21 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "Confirm Purchase";
+}
+
+<div class="container py-5 d-flex justify-content-center align-items-center">
+    <div class="card shadow-lg" style="width: 26rem;">
+        <img src="~/images/@Model.ImageUrl" class="card-img-top" alt="Product Image" style="height: 300px; object-fit: cover;">
+        <div class="card-body">
+            <h4 class="card-title text-center">@Model.Name</h4>
+            <p class="card-text">@Model.Description</p>
+            <p class="card-text"><strong>Price:</strong> @Model.Price EGP</p>
+
+            <form method="post" asp-action="ConfirmPurchase" asp-route-id="@Model.Id" class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-success">Confirm Purchase</button>
+                <a href="/Main/Index" class="btn btn-secondary">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>

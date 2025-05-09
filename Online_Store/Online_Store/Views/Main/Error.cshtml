@@ -1,0 +1,20 @@
+﻿@model Online_Store.Models.ErrorViewModel
+
+@{
+    ViewData["Title"] = "Error";
+}
+
+<div class="container text-center my-5">
+    <h1 class="display-3 text-danger">Error</h1>
+    <h4 class="text-warning">Oops! Something went wrong.</h4>
+
+    @if (!string.IsNullOrEmpty(Model?.RequestId))
+    {
+        <p>
+            <strong>Request ID:</strong> <code>@Model.RequestId</code>
+        </p>
+    }
+
+    <p>Please try again later or contact support if the problem persists.</p>
+    <a href="/" class="btn btn-primary btn-lg">Back to Home</a>
+</div>

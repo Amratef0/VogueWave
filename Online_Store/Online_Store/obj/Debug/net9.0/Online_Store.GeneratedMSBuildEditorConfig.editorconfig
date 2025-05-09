@@ -1,0 +1,189 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Online_Store
+build_property.RootNamespace = Online_Store
+build_property.ProjectDir = C:\Users\lenovo\source\repos\Online_Store\Online_Store\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\lenovo\source\repos\Online_Store\Online_Store
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Blog/Post1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xQb3N0MS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Blog/Post2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xQb3N0Mi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Blog/Post3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xQb3N0My5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Main/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Main/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Main/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBZGRDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Main/AddtoCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBZGR0b0NhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Main/CategoriesIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxDYXRlZ29yaWVzSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Main/CategoryPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxDYXRlZ29yeVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Main/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Main/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Main/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Main/EditCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxFZGl0Q2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Main/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Main/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Main/ManageProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxNYW5hZ2VQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Main/NewArrivals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxOZXdBcnJpdmFscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Main/PopularProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxQb3B1bGFyUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Main/ServicePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxTZXJ2aWNlUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Main/ViewCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxWaWV3Q2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Main/_ProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfUHJvZHVjdExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Payment/Confirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxDb25maXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Payment/OrderDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxPcmRlckRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Payment/ThankYou.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxUaGFua1lvdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Profile/ChangeProfilePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxDaGFuZ2VQcm9maWxlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Profile/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxFZGl0UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Profile/ViewProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxWaWV3UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Role/AddRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxBZGRSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Role/AssignRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxBc3NpZ25Sb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Role/RemoveRoleFromUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxSZW1vdmVSb2xlRnJvbVVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Shared/_mylayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9teWxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/source/repos/Online_Store/Online_Store/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

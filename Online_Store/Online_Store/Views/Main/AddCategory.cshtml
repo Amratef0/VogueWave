@@ -1,0 +1,23 @@
+﻿@model Online_Store.Models.Category
+
+@{
+    ViewData["Title"] = "Add Category";
+}
+
+<h2 class="text-center my-4">Add New Category</h2>
+
+<section class="mx-auto p-4" style="max-width: 600px; background-color: #f8f9fa; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    <form method="post" asp-action="SaveAddCategory">
+        @Html.AntiForgeryToken()
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Category Name</label>
+            <input asp-for="Name" class="form-control" placeholder="Enter category name" />
+            <span asp-validation-for="Name" class="text-danger small"></span>
+        </div>
+
+        <div class="d-flex justify-content-between">
+            <button type="submit" class="btn btn-success px-4">Save</button>
+            <a href="@Url.Action("CategoriesIndex", "Main")" class="btn btn-secondary px-4">Cancel</a>
+        </div>
+    </form>
+</section>

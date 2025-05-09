@@ -1,0 +1,28 @@
+﻿@model List<Online_Store.Models.Product>
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+    @foreach (var item in Model)
+    {
+        <div class="col d-flex justify-content-center">
+            <div class="card h-100 p-2 border-0 shadow rounded-3" style="width: 100%; max-width: 350px;">
+                <img src="~/images/@item.ImageUrl" class="card-img-top rounded-3" alt="@item.Name" style="height: 220px; object-fit: cover;" />
+                <div class="card-body d-flex flex-column">
+                    <h6 class="card-title mb-1 fw-bold">@item.Name</h6>
+                    <p class="card-text text-muted mb-2">@item.Description</p>
+                    <p class="card-text mb-3"><strong>Price:</strong> @item.Price?.ToString("F2") EGP</p>
+                    <div class="mt-auto d-flex justify-content-between">
+                        <a href="/Main/Details/@item.Id" class="btn btn-sm btn-primary">View Details</a>
+                        <form method="post" action="/Main/AddToCart/@item.Id">
+                            <button type="submit" class="btn btn-sm btn-success">Add To Cart</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@if (!Model.Any())
+{
+    <div class="text-center text-danger fw-bold my-4">No products found in this category.</div>
+}

@@ -1,0 +1,5 @@
+﻿@model Online_Store.Models.Order
+
+<h2>Thank You for Your Order!</h2>
+<p>Your order number is: @Model.OrderNumber</p>
+<a href="@Url.Action("OrderDetails", "Payment", new { orderNumber = Model.OrderNumber })" class="btn btn-primary">Track Your Order</a>
