@@ -21,9 +21,8 @@ namespace Online_Store.Models
         public decimal? Price { get; set; }
 
         [Required(ErrorMessage = "Please upload a product image.")]
-        public string? ImageUrl { get; set; } // دي الصورة الرئيسية
-
-        public ICollection<ProductImage>? ProductImages { get; set; } // دي باقي الصور
+        public string? ImageUrl { get; set; } 
+        public ICollection<ProductImage>? ProductImages { get; set; }
 
         public ICollection<OrderProduct>? OrderProducts { get; set; }
 
