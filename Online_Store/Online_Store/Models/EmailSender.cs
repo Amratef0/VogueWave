@@ -20,7 +20,7 @@ public class EmailSender : IEmailSender
         {
             Port = _smtpSettings.Port,
             Credentials = new NetworkCredential(_smtpSettings.Username, _smtpSettings.Password),
-            EnableSsl = true, // تأكد من تمكين SSL للتأكد من الأمان
+            EnableSsl = true, 
         };
 
         var mailMessage = new MailMessage
@@ -28,18 +28,17 @@ public class EmailSender : IEmailSender
             From = new MailAddress(_smtpSettings.Username),
             Subject = subject,
             Body = htmlMessage,
-            IsBodyHtml = true, // تأكد من أن البريد يحتوي على تنسيق HTML
+            IsBodyHtml = true, 
         };
 
         mailMessage.To.Add(email);
 
         try
         {
-            await smtpClient.SendMailAsync(mailMessage); // إرسال البريد الإلكتروني
+            await smtpClient.SendMailAsync(mailMessage); 
         }
         catch (Exception ex)
         {
-            // في حالة حدوث خطأ أثناء إرسال البريد
             Console.WriteLine($"Error: {ex.Message}");
         }
     }
